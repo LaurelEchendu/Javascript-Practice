@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background-image: url(/assets/vecteezy_pink-watercolor-flower-frame_13855136.png);
+    background-position: center;
+    background-size: cover;
+}
+#countlabel{
+    font-size: 200px;
+}
+button{
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(164, 187, 229);
+}
+button:active{
+    scale: (2.99px);
+}
